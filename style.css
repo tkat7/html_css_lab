@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+  background-color: #f9fafc;
+   font-family: 'Open Sans',serif;
+}
+.button{
+  float: right;
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+
+}
+#selected{
+  border-radius: 20px;
+  background-color: #000;
+  color: white;
+  width: 100px;
+}
+.text{
+  font-weight: 800;
+  font-size: 150%;
+  position: relative;
+  top: 100px;
+}
+p{
+  position: relative;
+  top: 100px;
+  color: #69696a;
+  border-left: 1px solid #69696a;
+  padding-left: 5px;
+  width: 480px;
+}
+.circle{
+  border-radius: 50%;
+position: absolute;
+}
+#circle1{
+  background-color: rgba(247, 136, 167, 0.6);
+height: 250px;
+width: 250px;
+bottom:200px;
+right: 300px;
+}
+#circle2{
+  background-color: rgba(207, 130, 213, 0.6);
+height: 150px;
+width: 150px;
+bottom:290px;
+right: 190px;
+}
+#circle3{
+  background-color: rgba(247, 193, 162, 0.7);
+height: 200px;
+width: 200px;
+bottom: 120px;
+right: 200px;
+}
+header{
+  margin: 15px;
+}
+#scroll{
+  border-radius: 20px;
+  background-color: #000;
+  color: white;
+  width: 120px;
+  margin: auto;
+  float: none;
+  position: absolute;
+  bottom: 50px;
+  left: 48%;
+}
