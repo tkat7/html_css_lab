@@ -5,12 +5,11 @@ body{
 }
 .button{
   float: right;
-  width: 70px;
-  height: 40px;
+  height: 35px;
   text-align: center;
-  line-height: 40px;
+  line-height: 35px;
   font-size: 15px;
-
+margin: 10px;
 }
 #selected{
   border-radius: 20px;
@@ -28,8 +27,8 @@ p{
   position: relative;
   top: 100px;
   color: #69696a;
-  border-left: 1px solid #69696a;
-  padding-left: 5px;
+  border-left: 3px solid #69696a;
+  padding-left: 10px;
   width: 480px;
 }
 .circle{
